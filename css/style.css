@@ -15,14 +15,18 @@ body{
     clear: both;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     margin: 25px;
     color: black;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .btn{
@@ -34,6 +38,10 @@ ul li a{
 
 h2{
     font-size: 40px;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -87,7 +95,7 @@ header{
 }
 
 .box-hero{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -120,7 +128,7 @@ h1{
     margin: 25px 0 15px 0;
 }
 
-.fas{
+.fa-arrow-down{
     display: inline-block;
     margin-top: 40px;
     font-size: 40px;
@@ -134,7 +142,7 @@ h1{
 /* section plane */
 
 .plane{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -149,22 +157,84 @@ h1{
 .option{
     width: 100%;
     margin-top: 20px;
-    
 }
 
 .standard{
-    margin: 0 40px;
+    margin: 0 30px;
 }
 
 .professional,
 .standard,
 .advanced{
     display: inline-block;
-    height: 300px;
+    height: 900px;
     float: left;
     border: 1px solid lightgrey;
-    width: calc(100% / 3 - 80px);
+    width: calc(100% / 3 - 60px);
 }
+
+/* plane option */
+.description{
+    padding: 15px 20px;
+}
+.team{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+} 
+
+.mounth{
+    color: grey;
+}
+
+.fa-pencil-alt{
+    font-size: 16px;
+}
+
+.function li{
+    font-size: 13px;
+}
+
+
+.function ul li,
+.point ul li{
+    margin-top: 30px;
+}
+
+.price{
+    line-height: 40px;
+}
+
+.btn-prova{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#gratis{color: #0061ff;}
+
+hr{
+    margin: 30px 0 40px 0;
+    color: grey;
+    width: 25%;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
+.point li{
+    font-size: 13px;
+}
+
+.btn-prova{
+    padding: 8px 0;
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+}
+
+
 
 
 
