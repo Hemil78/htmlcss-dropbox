@@ -8,3 +8,49 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix{
+    display: table;
+    content:"";
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 25px;
+    color: black;
+}
+
+
+
+/* header */
+
+header{
+    width: 100%;
+}
+
+.left, .right{
+    float: left;
+    height: 90px;
+    display: inline-block;
+    width: 50%;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.img-drop, .nav-left{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+
+
+
+
+
+
