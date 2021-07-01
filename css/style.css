@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix{
+.clearfix::after{
     display: table;
     content:"";
     clear: both;
@@ -40,6 +40,9 @@ ul li a{
 
 header{
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 .left, .right{
@@ -71,7 +74,60 @@ header{
     margin-right: 20px;
 }
 
+/* hero */
+
+.hero{
+    margin-top: 90px;
+    background-color: #b4d0e7;
+    max-height: 800px;
+}
+
+.box-hero{
+    width: 80%;
+    margin: auto;
+}
+
+/* title */
+h1{
+    padding-top: 80px;
+    font-size: 70px;
+}
+
+/* subtitle */
+.subtitle{
+    width: 100%;
+    margin-top: 50px;
+}
+.text-hero{
+    width: 40%;
+    padding-right: 90px;
+}
+.img-hero{
+    width: 60%;
+}
+
+.text-hero,
+.img-hero{
+    float: left;
+}
+
+.btn-hero{
+    display: inline-block;
+    margin: 25px 0 15px 0;
+}
+
+.fas{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 40px;
+    color: black;
+}
+
+.img-hero img{
+    width: 100%;
+}
 
 
 
 
+.prova{color: red;}
