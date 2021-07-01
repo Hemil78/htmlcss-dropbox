@@ -32,6 +32,10 @@ ul li a{
     text-decoration: none;
 }
 
+h2{
+    font-size: 40px;
+}
+
 
 
 
@@ -79,7 +83,7 @@ header{
 .hero{
     margin-top: 90px;
     background-color: #b4d0e7;
-    max-height: 800px;
+    max-height: 670px;
 }
 
 .box-hero{
@@ -127,7 +131,47 @@ h1{
     width: 100%;
 }
 
+/* section plane */
+
+.plane{
+    width: 70%;
+    margin: auto;
+}
+
+.business{
+    padding-top: 150px;
+}
+
+.input-fattura{
+    margin-top: 30px;
+}
+
+.option{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.standard{
+    margin: 0 40px;
+}
+
+.professional,
+.standard,
+.advanced{
+    display: inline-block;
+    height: 300px;
+    float: left;
+    border: 1px solid lightgrey;
+    width: calc(100% / 3 - 80px);
+}
 
 
 
-.prova{color: red;}
+
+
+
+
+
+
+
