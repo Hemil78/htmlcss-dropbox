@@ -25,6 +25,15 @@ ul li a{
     color: black;
 }
 
+.btn{
+    padding: 8px 15px;
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 
 
 /* header */
@@ -38,9 +47,9 @@ header{
     height: 90px;
     display: inline-block;
     width: 50%;
-    background-color: lightgrey;
-    border: 1px solid black;
 }
+
+/* nav-left */
 
 .img-drop, .nav-left{
     display: inline-block;
@@ -48,7 +57,19 @@ header{
     line-height: 90px;
 }
 
+.img-left{
+    margin-left: 20px;
+}
 
+/* nav-right */
+
+.right{
+    text-align: right;
+}
+
+.btn-nav{
+    margin-right: 20px;
+}
 
 
 
