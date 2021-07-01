@@ -279,6 +279,34 @@ hr{
     padding: 1px 40px;
 }
 
+.partner{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.img-fiducia,
+.text-fiducia{ float: left;}
+
+.img-fiducia{ width: 60%;}
+
+.text-fiducia{
+    padding: 30px 0 0 40px;
+    width: 40%;
+}
+
+.width-img{ width: 100%;}
+
+.white-btn{
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.trova-partner{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 
 
 
