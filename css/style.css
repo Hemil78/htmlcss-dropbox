@@ -47,6 +47,8 @@ h3{
     font-size: 25px;
 }
 
+h4{ font-size: 22px;}
+
 h5{
     font-size: 18px;
 }
@@ -470,6 +472,16 @@ hr{
     background-color: #fff;
     color: #000;
     padding: 5px 45px;
+}
+
+/* domande frequenti */
+#question{
+    margin-top: 100px;
+}
+
+.different{
+    display: inline-block;
+    width: 100%;
 }
 
 
