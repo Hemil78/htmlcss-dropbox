@@ -340,6 +340,46 @@ hr{
     margin-top: 15px;
 }
 
+/* section sponsor */
+.sponsor{
+    margin-top: 100px;
+}
+
+#title-client{
+    margin-bottom: 20px;
+}
+
+/* sponsor box */
+.sponsor-box{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.sponsor-left,
+.sponsor-right{
+    width: 30%;
+}
+
+.sponsor-left:after,
+.sponsor-right:after,
+.sponsor-desk:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.sponsor-desk{
+    width: 40%;
+}
+
+.sponsor-left,
+.sponsor-right,
+.sponsor-desk{
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+}
+
 
 
 
