@@ -317,9 +317,11 @@ hr{
     margin-top: 30px;
 }
 
-.operation-1,
-.operation-2,
-.operation-3{
+.operation-two{
+    margin-top: 80px;
+}
+
+.operation-box {
     display: inline-block;
     float: left;
     width: calc(100% / 3);
