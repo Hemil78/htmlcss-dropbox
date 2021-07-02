@@ -479,10 +479,31 @@ hr{
     margin-top: 100px;
 }
 
+.question1{
+    margin-top: 50px;
+}
+
 .different{
+    position: relative;
     display: inline-block;
     width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid lightgrey;
 }
+
+.question4{
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 90px;
+}
+
+.fa-chevron-down{
+    position: absolute;
+    right: 30px;
+    text-align: right;
+}
+
+
+
 
 
 
