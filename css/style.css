@@ -353,6 +353,7 @@ hr{
 .sponsor-box{
     margin-top: 30px;
     width: 100%;
+    background-color: #f5f5f5;
 }
 
 .sponsor-left,
@@ -360,25 +361,77 @@ hr{
     width: 30%;
 }
 
-.sponsor-left:after,
-.sponsor-right:after,
-.sponsor-desk:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-
 .sponsor-desk{
+    padding: 40px;
     width: 40%;
 }
 
 .sponsor-left,
-.sponsor-right,
 .sponsor-desk{
     display: inline-block;
     float: left;
-    border: 1px solid black;
 }
+
+.sponsor-right{
+    display: inline-block;
+    float: right;
+}
+
+/* square */
+
+.square-row{
+    width: 100%;    
+}
+
+.propriety{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.single-square:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;   
+}
+
+.designit{
+    border: 8px solid #d0e9cd;
+    background-color: #a2d39b;
+}
+
+.asu{ background-color: #61082b;}
+
+.florida{ background-color: #0093ce;}
+
+.toops{ background-color: #ff1c1c;}
+
+.world{ background-color: #d5001f;}
+
+.hearst{ background-color: #b4d0e7;}
+
+.lonely{ background-color: #0d2481;}
+
+.channel{ background-color: #ffd830;}
+
+/* loghi */
+
+.sponsor-left img,
+.sponsor-right img{
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+/* desk */
+
+.sponsor-desk img{
+    width: 200px;
+}
+
+.designit-desk{ margin-bottom: 70px;}
+
+#morten{ margin-top: 50px;}
+
 
 
 
