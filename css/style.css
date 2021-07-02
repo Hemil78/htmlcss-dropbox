@@ -307,6 +307,37 @@ hr{
     margin-bottom: 30px;
 }
 
+/* section operazioni */
+
+.operation{
+    margin-top: 70px;
+}
+
+.operation-one{
+    margin-top: 30px;
+}
+
+.operation-1,
+.operation-2,
+.operation-3{
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px 10px 0;
+}
+
+.img-operation{
+    width: 100%;
+}
+
+#uppercase{
+    text-decoration: underline;
+}
+
+.operation h3, p{
+    margin-top: 15px;
+}
+
 
 
 
