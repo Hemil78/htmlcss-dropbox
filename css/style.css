@@ -417,20 +417,39 @@ hr{
 
 .sponsor-left img,
 .sponsor-right img{
-    padding: 30px;
+    
     position: absolute;
-    width: 100%;
+    width: 120px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 /* desk */
 
 .sponsor-desk img{
-    width: 200px;
+    width: 150px;
 }
 
-.designit-desk{ margin-bottom: 70px;}
+.designit-desk{ margin-bottom: 50px;}
 
-#morten{ margin-top: 50px;}
+#morten{ margin-top: 30px;}
+
+/* prova gratuita */
+.prova-gratuita{
+    background-color: #b4d0e7;
+}
+
+.azienda,
+.btn-gratuita{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+    vertical-align: middle;
+    
+}
 
 
 
