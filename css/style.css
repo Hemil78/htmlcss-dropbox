@@ -157,9 +157,7 @@ h1{
     margin-top: 20px;
 }
 
-.standard{
-    margin: 0 30px;
-}
+.standard{ margin: 0 30px;}
 
 .professional,
 .standard,
@@ -169,13 +167,12 @@ h1{
     float: left;
     border: 1px solid lightgrey;
     width: calc(100% / 3 - 20px);
+    box-shadow: 5px 5px 5px #d3d2d2;
 }
 
 /* plane option */
 
-.description{
-    padding: 15px 20px;
-}
+.description{ padding: 15px 20px;}
 .team{
     text-align: center;
     padding: 10px;
@@ -187,23 +184,15 @@ h1{
     color: grey;
 }
 
-.fa-pencil-alt{
-    font-size: 16px;
-}
+.fa-pencil-alt{ font-size: 16px;}
 
-.function li{
-    font-size: 13px;
-}
+.function li{ font-size: 13px;}
 
 
 .function ul li,
-.point ul li{
-    margin-top: 30px;
-}
+.point ul li{ margin-top: 30px;}
 
-.price{
-    line-height: 40px;
-}
+.price{ line-height: 40px;}
 
 .prova-gratis{
     margin-top: 50px;
@@ -233,24 +222,21 @@ hr{
     width: 25%;
 }
 
-.fa-check{
-    color: #0061ff;
-}
+.fa-check{ color: #0061ff;}
 
-.point li{
-    font-size: 13px;
-}
+.point li{ font-size: 13px;}
 
 
-.fa-smile{
-    font-size: 17px;
-}
+.fa-smile{ font-size: 17px;}
 
 /* box vendite */
 
 .vendite{ margin-top: 50px;}
 
-.scount{ border: 1px solid lightgrey;}
+.scount{
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 5px #d3d2d2;
+}
 
 .team-building{
     text-align: center;
@@ -277,6 +263,7 @@ hr{
     transition: 0.5s;
 }
 
+/* partner */
 .partner{
     margin-top: 150px;
     width: 100%;
@@ -300,6 +287,12 @@ hr{
     border: 1px solid black;
 }
 
+.white-btn:hover{
+    color: white;
+    background-color: lightgrey;
+    border: none;
+}
+
 .trova-partner{
     margin-top: 40px;
     margin-bottom: 30px;
@@ -307,17 +300,11 @@ hr{
 
 /* section operazioni */
 
-.operation{
-    margin-top: 70px;
-}
+.operation{ margin-top: 70px;}
 
-.operation-one{
-    margin-top: 30px;
-}
+.operation-one{ margin-top: 30px;}
 
-.operation-two{
-    margin-top: 80px;
-}
+.operation-two{ margin-top: 60px;}
 
 .operation-box {
     display: inline-block;
@@ -326,26 +313,16 @@ hr{
     padding: 0 20px 10px 0;
 }
 
-.img-operation{
-    width: 100%;
-}
+.img-operation{ width: 100%;}
 
-#uppercase{
-    text-decoration: underline;
-}
+#uppercase{ text-decoration: underline;}
 
-.operation h3, .operation p{
-    margin-top: 15px;
-}
+.operation h3, .operation p{ margin-top: 15px;}
 
 /* section sponsor */
-.sponsor{
-    margin-top: 100px;
-}
+.sponsor{ margin-top: 100px;}
 
-#title-client{
-    margin-bottom: 20px;
-}
+#title-client{ margin-bottom: 20px;}
 
 /* sponsor box */
 .sponsor-box{
@@ -355,9 +332,7 @@ hr{
 }
 
 .sponsor-left,
-.sponsor-right{
-    width: 30%;
-}
+.sponsor-right{ width: 30%;}
 
 .sponsor-desk{
     padding: 40px;
@@ -377,9 +352,7 @@ hr{
 
 /* square */
 
-.square-row{
-    width: 100%;    
-}
+.square-row{ width: 100%;}
 
 .propriety{
     float: left;
@@ -422,21 +395,16 @@ hr{
     transform: translate(-50%, -50%);
 }
     
-
 /* desk */
 
-.sponsor-desk img{
-    width: 150px;
-}
+.sponsor-desk img{ width: 150px;}
 
 .designit-desk{ margin-bottom: 50px;}
 
 #morten{ margin-top: 30px;}
 
 /* prova gratuita */
-.prova-gratuita{
-    background-color: #b4d0e7;
-}
+.prova-gratuita{ background-color: #b4d0e7;}
 
 .azienda,
 .btn-gratuita{
@@ -470,13 +438,9 @@ hr{
 }
 
 /* domande frequenti */
-#question{
-    margin-top: 100px;
-}
+#question{ margin-top: 100px;}
 
-.question1{
-    margin-top: 50px;
-}
+.question1{ margin-top: 50px;}
 
 .different{
     position: relative;
@@ -522,17 +486,14 @@ footer{
     padding: 5px 0;
 }
 
-.footer-up li a{
-    color: #fff;
-}
+.footer-up li a{ color: #fff;}
 
-.footer-up h4{
-    margin-bottom: 25px;
-}
+.footer-up h4{ margin-bottom: 25px;}
 
 /* footer down */
 
 .footer-down li{
+    margin-left: 80px;
     font-size: 13px;
 }
 
