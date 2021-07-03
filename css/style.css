@@ -32,7 +32,7 @@ nav ul li a{
     color: black;
 }
 
-ul {list-style-type: none;}
+ul { list-style-type: none;}
 
 .btn{
     display: inline-block;
@@ -127,14 +127,10 @@ h1{
     width: 40%;
     padding-right: 90px;
 }
-.img-hero{
-    width: 60%;
-}
+.img-hero{ width: 60%;}
 
 .text-hero,
-.img-hero{
-    float: left;
-}
+.img-hero{ float: left;}
 
 .btn-hero{
     padding: 8px 15px;
@@ -148,19 +144,13 @@ h1{
     color: black;
 }
 
-.img-hero img{
-    width: 100%;
-}
+.img-hero img{ width: 100%;}
 
 /* section plane */
 
-.business{
-    padding-top: 150px;
-}
+.business{ padding-top: 150px;}
 
-.input-fattura{
-    margin-top: 30px;
-}
+.input-fattura{ margin-top: 30px;}
 
 .option{
     width: 100%;
@@ -258,13 +248,13 @@ hr{
 
 /* box vendite */
 
-.vendite{
-    margin-top: 50px;
-}
+.vendite{ margin-top: 50px;}
+
+.scount{ border: 1px solid lightgrey;}
 
 .team-building{
     text-align: center;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     padding: 10px;
 }
 
@@ -272,17 +262,19 @@ hr{
     position: relative;
     line-height: 40px;
     padding: 30px 20px 20px;
-    border: 1px solid lightgrey;
 }
 
 .btn-vendite{
     position:absolute;
     top: 20px;
     right: 20px;
-    background-color: #0061ff;
-    color: white;
-    text-decoration: none;
     padding: 1px 40px;
+}
+
+.btn-vendite:hover{
+    background-color: #00e9ff;
+    color: #0061ff; 
+    transition: 0.5s;
 }
 
 .partner{
