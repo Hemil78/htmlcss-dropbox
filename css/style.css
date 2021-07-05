@@ -366,9 +366,10 @@ hr{
 }
 
 .designit{
-    border: 8px solid #d0e9cd;
     background-color: #a2d39b;
 }
+
+.cornice:hover{ border: 8px solid rgba(255, 255, 255, 0.5);}
 
 .asu{ background-color: #61082b;}
 
@@ -487,6 +488,8 @@ footer{
 }
 
 .footer-up li a{ color: #fff;}
+
+.footer-up li a:hover{ text-decoration: underline;}
 
 .footer-up h4{ margin-bottom: 25px;}
 
